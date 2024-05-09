@@ -8,5 +8,15 @@
         "changePercentage3Month": "26.757373",
         "changePercentage6Month": "38.360299",
         "changePercentage9Month": "168.967190"
+    },
+    {
+        "code": "TTE",
+        "description": "İŞ PORTFÖY BIST TEKNOLOJİ AĞIRLIK SINIRLAMALI ENDEKSİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
+        "priceTRY": "0.912940",
+        "changePercentageDaily": "-0.2969",
+        "changePercentage1Month": "6.380326",
+        "changePercentage3Month": "10.686227",
+        "changePercentage6Month": "59.791225",
+        "changePercentage9Month": "262.238966"
     }
 ]
