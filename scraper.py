@@ -30,7 +30,7 @@ class CssSelectors:
     )
 
 
-INPUTS = ["YAS"]
+INPUTS = ["YAS", "TTE"]
 
 
 def parse_value(soup: BeautifulSoup, selector: str) -> str | None:
