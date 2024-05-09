@@ -1,0 +1,12 @@
+{
+    "editor.wordWrap": "on",
+    "editor.rulers": [
+        120
+    ],
+    "editor.tabSize": 4,
+    "editor.formatOnSave": false,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true
+    }
+}
