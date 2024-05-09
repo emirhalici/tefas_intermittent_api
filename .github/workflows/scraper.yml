@@ -28,7 +28,7 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "TEFAS Scraper Action"
-        git remote set-url --push origin https://your_username:$GITHUB_TOKEN@github.com/your/repo
+        git remote set-url --push origin https://your_username:$GITHUB_TOKEN@github.com/${{ github.repository }}
         git add fund_data.json
         git commit -m "Update fund data" -a || echo "No changes to commit"
         git push --set-upstream origin HEAD:main
