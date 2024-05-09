@@ -1,7 +1,7 @@
 name: Scrape TEFAS Fund Data
 
 on:
-  workflow_dispatch:  # This allows manual triggering of the workflow
+  workflow_dispatch:
 
 jobs:
   scrape:
@@ -28,8 +28,7 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "TEFAS Scraper Action"
+        git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}
         git add fund_data.json
         git commit -m "Update fund data" -a || echo "No changes to commit"
-        git push --set-upstream origin HEAD:main
-      env:
-        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        git push https://${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }} HEAD:main
