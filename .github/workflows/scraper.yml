@@ -7,9 +7,13 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
 
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the changed files back to the repository.
+      contents: write
+
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Set up Python
       uses: actions/setup-python@v2
@@ -24,13 +28,8 @@ jobs:
     - name: Run scraper
       run: python scraper.py
 
-    - name: Commit and push if changes
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "TEFAS Scraper Action"
-        git remote set-url --push origin https://your_username:$GITHUB_TOKEN@github.com/${{ secrets.GH_SECRET }}
-        git add fund_data.json
-        git commit -m "Update fund data" -a || echo "No changes to commit"
-        git push --set-upstream origin HEAD:main
+    - uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "Update fund data"
     env:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
