@@ -31,5 +31,7 @@ jobs:
     - uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: "Update fund data"
+        branch: data
+        create_branch: true
     env:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
