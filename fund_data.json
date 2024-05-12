@@ -2,21 +2,21 @@
     {
         "code": "YAS",
         "description": "YAPI KREDİ PORTFÖY KOÇ HOLDİNG İŞTİRAK VE HİSSE SENEDİ FONU(HİSSE SENEDİ YOĞUN FON)",
-        "priceTRY": "14.159966",
-        "changePercentageDaily": "0.94",
-        "changePercentage1Month": "7.732651",
-        "changePercentage3Month": "26.757373",
-        "changePercentage6Month": "38.360299",
-        "changePercentage9Month": "168.967190"
+        "priceTRY": "14.065575",
+        "changePercentageDaily": "0.6238",
+        "changePercentage1Month": "5.628623",
+        "changePercentage3Month": "22.643728",
+        "changePercentage6Month": "38.531631",
+        "changePercentage9Month": "154.186359"
     },
     {
         "code": "TTE",
         "description": "İŞ PORTFÖY BIST TEKNOLOJİ AĞIRLIK SINIRLAMALI ENDEKSİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
-        "priceTRY": "0.912940",
-        "changePercentageDaily": "-0.2969",
-        "changePercentage1Month": "6.380326",
-        "changePercentage3Month": "10.686227",
-        "changePercentage6Month": "59.791225",
-        "changePercentage9Month": "262.238966"
+        "priceTRY": "0.897645",
+        "changePercentageDaily": "-0.9686",
+        "changePercentage1Month": "-0.029958",
+        "changePercentage3Month": "5.355416",
+        "changePercentage6Month": "55.548412",
+        "changePercentage9Month": "257.194872"
     }
 ]
