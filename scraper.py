@@ -31,7 +31,24 @@ class CssSelectors:
     )
 
 
-INPUTS = ["YAS", "TTE"]
+INPUTS = [
+    "TTA",
+    "YKT",
+    "GGK",
+    "OTJ",
+    "ZCN",
+    "AES",
+    "IVY",
+    "SAS",
+    "YTD",
+    "YAY",
+    "TI3",
+    "OJT",
+    "YAS",
+    "IIH",
+    "DBH",
+    "TI1",
+]
 
 
 def parse_value(soup: BeautifulSoup, selector: str) -> "str | None":
@@ -64,7 +81,7 @@ def update_funds():
     for code in INPUTS:
         data = fetch_fund_data(code)
         fund_data.append(data)
-        time.sleep(0.150)
+        time.sleep(0.50)
 
     # Write to JSON file
     with open("fund_data.json", "w", encoding="utf-8") as json_file:
