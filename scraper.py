@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import json
 from typing import TypedDict
 import time
+import csv
 
 
 class TefasData(TypedDict):
@@ -33,7 +34,7 @@ class CssSelectors:
 INPUTS = ["YAS", "TTE"]
 
 
-def parse_value(soup: BeautifulSoup, selector: str) -> str | None:
+def parse_value(soup: BeautifulSoup, selector: str) -> "str | None":
     element = soup.select_one(selector).text
     if element:
         return element.strip().replace("%", "").replace(",", ".")
@@ -61,12 +62,22 @@ def fetch_fund_data(fund_code: str) -> TefasData:
 def update_funds():
     fund_data = []
     for code in INPUTS:
-        fund_data.append(fetch_fund_data(code))
+        data = fetch_fund_data(code)
+        fund_data.append(data)
         time.sleep(0.150)
 
-    print(json.dumps(fund_data, indent=4, ensure_ascii=False))
-    with open("fund_data.json", "w", encoding="utf-8") as f:
-        json.dump(fund_data, f, indent=4, ensure_ascii=False)
+    # Write to JSON file
+    with open("fund_data.json", "w", encoding="utf-8") as json_file:
+        json.dump(fund_data, json_file, indent=4, ensure_ascii=False)
+
+    # Write to CSV file
+    with open("fund_data.csv", "w", newline="", encoding="utf-8") as csv_file:
+        writer = csv.DictWriter(csv_file, fieldnames=fund_data[0].keys())
+        writer.writeheader()
+        for fund in fund_data:
+            writer.writerow(fund)
+
+    print("Data written to fund_data.json and fund_data.csv files.")
 
 
 update_funds()
