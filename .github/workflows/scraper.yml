@@ -16,8 +16,8 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    - name: Pull changes from remote branch
-      run: git pull origin data --no-rebase
+    # - name: Pull changes from remote branch
+    #   run: git pull origin data --no-rebase
 
     - name: Set up Python
       uses: actions/setup-python@v2
@@ -37,5 +37,8 @@ jobs:
         commit_message: "Update fund data"
         branch: data
         create_branch: true
+        push_options: '--force'
+        skip_fetch: false
+        skip_checkout: false
     env:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
