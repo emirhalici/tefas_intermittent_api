@@ -16,6 +16,9 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
+    - name: Pull changes from remote branch
+      run: git pull origin data
+
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
