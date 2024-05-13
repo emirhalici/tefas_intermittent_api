@@ -3,7 +3,7 @@ name: Scrape TEFAS Fund Data
 on:
   schedule:
     - cron: '0 9 * * *'  # Runs at 12 PM GMT+3 (9 AM UTC) every day
-
+  workflow_dispatch:
 jobs:
   scrape:
     runs-on: ubuntu-latest
