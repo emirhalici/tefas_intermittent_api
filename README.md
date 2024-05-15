@@ -24,6 +24,6 @@ Script dosyasında `INPUTS` değişkenine farklı fon kodları ekleyip çıkarar
 
 > Dikkat: Çok fazla fon kodunu girmek rate limit'e takılarak tool'un dengesiz çalışmasına sebep olabilir.
 
-### 2. Workflow Action'ı düzenleyin
+### 3. Workflow Action'ı düzenleyin
 
 Workflow dosyasının çektiği veriyi `data` branch'ine yazabilmesi için commit iznine ihtiyacı var. Proje ayarlarından `GH_TOKEN` adında bir token oluşturup bu tokene repository yetkilerini verin. 
