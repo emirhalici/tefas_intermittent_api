@@ -39,6 +39,7 @@ INPUTS = [
     "ZCN",
     "AES",
     "IIH",
+    "TI2",
     "SAS",
     "YAS",
     "TI3",
@@ -70,9 +71,9 @@ def fetch_fund_data(fund_code: str) -> TefasData:
         "priceTRY": parse_value(soup, selector=CssSelectors.PRICE),
         "changePercentageDaily": parse_value(soup, CssSelectors.CHANGE_DAILY),
         "changePercentage1Month": parse_value(soup, CssSelectors.CHANGE_1_MONTH),
-        "changePercentage3Month": parse_value(soup, CssSelectors.CHANGE_3_MONTH),
-        "changePercentage6Month": parse_value(soup, CssSelectors.CHANGE_6_MONTH),
-        "changePercentage9Month": parse_value(soup, CssSelectors.CHANGE_12_MONTH),
+        "changePercentage3Months": parse_value(soup, CssSelectors.CHANGE_3_MONTH),
+        "changePercentage6Months": parse_value(soup, CssSelectors.CHANGE_6_MONTH),
+        "changePercentage12Months": parse_value(soup, CssSelectors.CHANGE_12_MONTH),
     }
 
 
