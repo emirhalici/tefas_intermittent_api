@@ -1,22 +1,172 @@
 [
     {
-        "code": "YAS",
-        "description": "YAPI KREDİ PORTFÖY KOÇ HOLDİNG İŞTİRAK VE HİSSE SENEDİ FONU(HİSSE SENEDİ YOĞUN FON)",
-        "priceTRY": "14.065575",
-        "changePercentageDaily": "0.6238",
-        "changePercentage1Month": "5.628623",
-        "changePercentage3Month": "22.643728",
-        "changePercentage6Month": "38.531631",
-        "changePercentage9Month": "154.186359"
+        "code": "TTA",
+        "description": "İŞ PORTFÖY ALTIN FONU",
+        "priceTRY": "0.271507",
+        "changePercentageDaily": "-0.5396",
+        "changePercentage1Month": "2.679817",
+        "changePercentage3Months": "5.726613",
+        "changePercentage6Months": "27.179086",
+        "changePercentage12Months": "49.536257"
     },
     {
-        "code": "TTE",
-        "description": "İŞ PORTFÖY BIST TEKNOLOJİ AĞIRLIK SINIRLAMALI ENDEKSİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
-        "priceTRY": "0.897645",
-        "changePercentageDaily": "-0.9686",
-        "changePercentage1Month": "-0.029958",
-        "changePercentage3Month": "5.355416",
-        "changePercentage6Month": "55.548412",
-        "changePercentage9Month": "257.194872"
+        "code": "YKT",
+        "description": "YAPI KREDİ PORTFÖY ALTIN FONU",
+        "priceTRY": "0.345703",
+        "changePercentageDaily": "-0.8114",
+        "changePercentage1Month": "0.274105",
+        "changePercentage3Months": "5.226904",
+        "changePercentage6Months": "25.835560",
+        "changePercentage12Months": "50.226620"
+    },
+    {
+        "code": "GGK",
+        "description": "INVEO PORTFÖY ALTIN FON",
+        "priceTRY": "5.491526",
+        "changePercentageDaily": "-0.6229",
+        "changePercentage1Month": "1.532099",
+        "changePercentage3Months": "5.683398",
+        "changePercentage6Months": "29.303954",
+        "changePercentage12Months": "56.791437"
+    },
+    {
+        "code": "OTJ",
+        "description": "OYAK PORTFÖY KIYMETLİ MADENLER FON SEPETİ FONU",
+        "priceTRY": "2.632955",
+        "changePercentageDaily": "1.1441",
+        "changePercentage1Month": "-2.280870",
+        "changePercentage3Months": "5.578387",
+        "changePercentage6Months": "26.742804",
+        "changePercentage12Months": "37.713550"
+    },
+    {
+        "code": "ZCN",
+        "description": "ZİRAAT PORTFÖY EMTİA FON SEPETİ FONU",
+        "priceTRY": "1.924697",
+        "changePercentageDaily": "0.7630",
+        "changePercentage1Month": "-3.966101",
+        "changePercentage3Months": "2.058459",
+        "changePercentage6Months": "16.962969",
+        "changePercentage12Months": "30.8360"
+    },
+    {
+        "code": "AES",
+        "description": "AK PORTFÖY PETROL YABANCI BYF FON SEPETİ FONU",
+        "priceTRY": "0.085839",
+        "changePercentageDaily": "0.7370",
+        "changePercentage1Month": "-6.437408",
+        "changePercentage3Months": "1.274201",
+        "changePercentage6Months": "12.058432",
+        "changePercentage12Months": "21.593597"
+    },
+    {
+        "code": "IIH",
+        "description": "İSTANBUL PORTFÖY ÜÇÜNCÜ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
+        "priceTRY": "24.526264",
+        "changePercentageDaily": "0.4513",
+        "changePercentage1Month": "-5.468390",
+        "changePercentage3Months": "8.846132",
+        "changePercentage6Months": "38.818643",
+        "changePercentage12Months": "106.738789"
+    },
+    {
+        "code": "TI2",
+        "description": "İŞ PORTFÖY HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
+        "priceTRY": "986.997876",
+        "changePercentageDaily": "0.0995",
+        "changePercentage1Month": "-7.494795",
+        "changePercentage3Months": "12.205976",
+        "changePercentage6Months": "37.900940",
+        "changePercentage12Months": "95.545596"
+    },
+    {
+        "code": "SAS",
+        "description": "AK PORTFÖY SABANCI TOPLULUĞU ŞİRKETLERİ ENDEKSİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
+        "priceTRY": "1.183211",
+        "changePercentageDaily": "0.5190",
+        "changePercentage1Month": "-6.549381",
+        "changePercentage3Months": "-1.867828",
+        "changePercentage6Months": "",
+        "changePercentage12Months": ""
+    },
+    {
+        "code": "YAS",
+        "description": "YAPI KREDİ PORTFÖY KOÇ HOLDİNG İŞTİRAK VE HİSSE SENEDİ FONU(HİSSE SENEDİ YOĞUN FON)",
+        "priceTRY": "12.446738",
+        "changePercentageDaily": "0.8097",
+        "changePercentage1Month": "-11.611034",
+        "changePercentage3Months": "-10.957215",
+        "changePercentage6Months": "9.529351",
+        "changePercentage12Months": "34.027739"
+    },
+    {
+        "code": "TI3",
+        "description": "İŞ PORTFÖY İŞ BANKASI İŞTİRAKLERİ ENDEKSİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
+        "priceTRY": "1007.794116",
+        "changePercentageDaily": "0.0632",
+        "changePercentage1Month": "-12.151827",
+        "changePercentage3Months": "0.101931",
+        "changePercentage6Months": "16.547938",
+        "changePercentage12Months": "56.812321"
+    },
+    {
+        "code": "IVY",
+        "description": "İSTANBUL PORTFÖY BLOCKCHAİN TEKNOLOJİLERİ KARMA FON",
+        "priceTRY": "2.455107",
+        "changePercentageDaily": "-1.4735",
+        "changePercentage1Month": "-6.708666",
+        "changePercentage3Months": "6.976107",
+        "changePercentage6Months": "26.112010",
+        "changePercentage12Months": "66.334599"
+    },
+    {
+        "code": "YTD",
+        "description": "YAPI KREDİ PORTFÖY YABANCI FON SEPETİ FONU",
+        "priceTRY": "0.415776",
+        "changePercentageDaily": "3.0682",
+        "changePercentage1Month": "-1.067429",
+        "changePercentage3Months": "4.509659",
+        "changePercentage6Months": "14.105368",
+        "changePercentage12Months": "33.244883"
+    },
+    {
+        "code": "YAY",
+        "description": "YAPI KREDİ PORTFÖY YABANCI TEKNOLOJİ SEKTÖRÜ HİSSE SENEDİ FONU",
+        "priceTRY": "676.355008",
+        "changePercentageDaily": "-1.7927",
+        "changePercentage1Month": "-12.229057",
+        "changePercentage3Months": "-2.894279",
+        "changePercentage6Months": "3.540040",
+        "changePercentage12Months": "35.914598"
+    },
+    {
+        "code": "OJT",
+        "description": "QNB FİNANS PORTFÖY TEKNOLOJİ FON SEPETİ FONU",
+        "priceTRY": "5.292147",
+        "changePercentageDaily": "-1.7117",
+        "changePercentage1Month": "-9.341599",
+        "changePercentage3Months": "1.448496",
+        "changePercentage6Months": "8.083048",
+        "changePercentage12Months": "52.682912"
+    },
+    {
+        "code": "DBH",
+        "description": "DENİZ PORTFÖY EUROBOND (DÖVİZ) BORÇLANMA ARAÇLARI FONU",
+        "priceTRY": "0.2272",
+        "changePercentageDaily": "-0.0893",
+        "changePercentage1Month": "2.718979",
+        "changePercentage3Months": "8.777356",
+        "changePercentage6Months": "18.390679",
+        "changePercentage12Months": "47.833895"
+    },
+    {
+        "code": "TI1",
+        "description": "İŞ PORTFÖY PARA PİYASASI (TL) FONU",
+        "priceTRY": "713.525007",
+        "changePercentageDaily": "0.1369",
+        "changePercentage1Month": "4.186193",
+        "changePercentage3Months": "13.149904",
+        "changePercentage6Months": "26.854683",
+        "changePercentage12Months": "51.220951"
     }
 ]
