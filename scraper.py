@@ -49,7 +49,8 @@ INPUTS = [
     "OJT",
     "DBH",
     "TI1",
-    "AC4"
+    "AC4",
+    "TZL"
 ]
 
 
