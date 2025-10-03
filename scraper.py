@@ -32,6 +32,7 @@ class CssSelectors:
 
 
 INPUTS = [
+    "ZZL"
     "TTA",
     "YKT",
     "GGK",
