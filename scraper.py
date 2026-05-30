@@ -49,6 +49,7 @@ INPUTS = [
     "TI1",
     "AC4",
     "TZL",
+    "TP2",
 ]
 
 
