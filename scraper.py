@@ -30,6 +30,7 @@ HEADERS = {
 
 
 INPUTS = [
+    "ZZL"
     "TTA",
     "YKT",
     "GGK",
